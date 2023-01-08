@@ -14,7 +14,7 @@ EXPOSE 4200
 CMD [ "ng","serve" ]
 
 # nginx server
-FROM nginx
-COPY . /usr/share/nginx/html
+# FROM nginx
+# COPY . /usr/share/nginx/html
 
 
